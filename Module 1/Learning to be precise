@@ -1,0 +1,12 @@
+https://practice.geeksforgeeks.org/problems/learning-to-be-precise/1/?track=module-1-basics-and-control-structures&batchId=113
+
+void precise(float a, float b)
+{
+    //perform a/b
+    
+    cout<<a/b<<" ";
+    
+    cout<<fixed<<setprecision(3)<<a/b<<endl;
+    
+    cout<<endl;
+}
