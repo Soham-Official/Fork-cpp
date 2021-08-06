@@ -1,0 +1,8 @@
+https://practice.geeksforgeeks.org/problems/learn-to-comment/1/?track=module-1-basics-and-control-structures&batchId=113
+
+void comment(int a,int b,int c)
+{
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<c<<endl;
+}
