@@ -1,0 +1,9 @@
+https://practice.geeksforgeeks.org/problems/c-hello-world3402/1/?track=module-1-basics-and-control-structures&batchId=113
+
+
+void helloWorld()
+{
+
+    cout<<"Hello World"; 
+    //cout will output to console
+}
