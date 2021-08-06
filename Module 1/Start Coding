@@ -1,0 +1,7 @@
+https://practice.geeksforgeeks.org/problems/start-coding/1/?track=module-1-basics-and-control-structures&batchId=113
+
+void printHello(){
+    
+   cout<<"Hello World";
+    
+}
