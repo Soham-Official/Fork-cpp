@@ -1,0 +1,14 @@
+https://practice.geeksforgeeks.org/problems/while-loop-printtable/1/?track=module-1-basics-and-control-structures&batchId=113
+
+
+    void printTable(int n)
+    {
+        int multiplier=10;
+        while(multiplier)
+        {
+           cout<<n*multiplier<<" ";
+           multiplier--;
+        }
+        
+        cout<<endl;
+    } 
