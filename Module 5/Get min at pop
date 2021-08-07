@@ -1,0 +1,15 @@
+https://practice.geeksforgeeks.org/problems/get-min-at-pop/1/?track=module-5-stacks-and-queues&batchId=113
+
+stack<int> _push(int arr[],int n)
+{
+   stack<int>s;
+   s.push(arr[0]);
+   for(int i=1;i<n;i++)
+   {
+       if(arr[i]>=s.top())
+       s.push(s.top());
+       else
+       s.push(arr[i]);
+   }
+   return s;
+}
