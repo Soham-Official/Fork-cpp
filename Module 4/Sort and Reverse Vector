@@ -1,0 +1,13 @@
+https://practice.geeksforgeeks.org/problems/sort-and-reverse-vector/1/?track=module-4-vector-and-pair&batchId=113
+
+
+vector<int> sortVector(vector<int>v)
+{
+   sort(v.begin(),v.end());
+    return v;
+}
+vector<int> reverseVector(vector<int>v)
+{
+     reverse(v.begin(),v.end());
+    return v;
+}
