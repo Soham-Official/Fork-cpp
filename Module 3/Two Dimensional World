@@ -1,0 +1,15 @@
+https://practice.geeksforgeeks.org/problems/two-dimensional-world/1/?track=module-3-pointers-and-objects%20&batchId=113
+
+void twoDimensional(int **a,int N){
+    
+    // Loop to iterate through matrix
+    for(int i = 0;i<N;i++){
+        for(int j = 0;j<N;j++){
+            
+            cout<<a[i][j]<<" ";
+            
+        }
+        cout << endl;
+    }
+    
+}
