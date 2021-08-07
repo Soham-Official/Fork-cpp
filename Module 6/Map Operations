@@ -1,0 +1,51 @@
+https://practice.geeksforgeeks.org/problems/map-operations/1/?track=module-6-sets-and-maps&batchId=113
+
+
+map<int,int> mapInsert(int arr[],int n)
+{
+    map<int,int>mp;
+   //Insert arr[i] as key and i as value
+    for(int i=0;i<n;i++)
+     {
+         if(mp.find(arr[i])==mp.end())
+         mp.insert(pair<int,int>(arr[i],i));
+         else
+         {
+             auto x=mp.find(arr[i]);
+             x->second=i;
+         }
+     }
+    
+    return mp;
+    
+}
+
+
+void mapDisplay(map<int,int>mp)
+{
+    //Print every key and value pair in a new line
+    for(auto i=mp.begin();i!=mp.end();i++)
+    cout<<i->first<<" "<<i->second<<endl;
+}
+
+
+void mapErase(map<int,int>&mp,int x)
+{
+   //Write the if and else condition to erase x from map
+  if(mp.find(x)==mp.end())
+  {
+      cout<<"not found";
+  }
+  else
+  {
+      mp.erase(x);
+      cout<<"erased "<<x;
+  }
+    
+    
+    //else condition
+    
+    
+    
+    cout<<endl;
+}
