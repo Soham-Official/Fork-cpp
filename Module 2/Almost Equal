@@ -1,0 +1,23 @@
+https://practice.geeksforgeeks.org/problems/almost-equal/1/?track=module-2-arrays-and-strings&batchId=113
+
+
+    int countChars(string s1, string s2){
+        
+      int count=0;
+      int h1[400]={0};
+      int h2[400]={0};
+      for(int i=0;i<s1.size();i++)
+      h1[s1[i]]++;
+      for(int i=0;i<s2.size();i++)
+      h2[s2[i]]++;
+      for(int i=0;i<400;i++)
+      {
+          if(h1[i]!=h2[i])
+          count+=abs(h1[i]-h2[i]);
+      }
+      return count;
+    // int x=s1.size();
+    // int y=s2.size();
+    // return abs(x-y);
+        
+    }
