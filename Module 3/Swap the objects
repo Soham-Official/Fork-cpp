@@ -1,0 +1,7 @@
+https://practice.geeksforgeeks.org/problems/swap-the-objects/1/?track=module-3-pointers-and-objects%20&batchId=113
+
+void swapper(Person **obj1, Person **obj2)
+{
+    swap(**obj1,**obj2);
+   
+}
