@@ -1,0 +1,12 @@
+https://practice.geeksforgeeks.org/problems/find-the-frequency/1/?track=module-4-vector-and-pair&batchId=113
+
+
+int findFrequency(vector<int> v, int x){
+    //  int count=0;
+    //  for(int i=0;i<v.size();i++)
+    //  {
+    //      if(v[i]==x)
+    //      count++;
+    //  }
+     return count(v.begin(),v.end(),x);
+}
