@@ -1,0 +1,10 @@
+https://practice.geeksforgeeks.org/problems/back-to-front/1/?track=module-4-vector-and-pair&batchId=113
+
+void reverseIterator(vector<int>::reverse_iterator it1, vector<int>::reverse_iterator it2){
+    
+    for(auto i=it1;i<it2;i++)
+    cout<<*i<<" ";
+    
+    cout<<endl;
+    
+}
