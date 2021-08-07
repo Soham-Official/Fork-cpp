@@ -1,0 +1,17 @@
+https://practice.geeksforgeeks.org/problems/structs-and-objects/1/?track=module-3-pointers-and-objects%20&batchId=113
+
+int area(Rectangle r)
+{
+   return r.length*r.breadth;
+}
+
+
+void maxArea(Rectangle arr[],int n)
+{
+   
+   int maxarea=0;
+   for(int i=0;i<n;i++)
+   maxarea=max(maxarea,area(arr[i]));
+   cout<<maxarea;
+    cout<<endl;
+}
