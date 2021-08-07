@@ -1,0 +1,19 @@
+https://practice.geeksforgeeks.org/problems/count-the-specials/1/?track=module-2-arrays-and-strings&batchId=113
+
+
+int countSpecials(int arr[], int n, int K){
+    
+    int f = floor(n/K), count = 0;
+    int h[1001]={0};
+    for(int i=0;i<n;i++)
+    h[arr[i]]++;
+    for(int i=0;i<1001;i++)
+    {
+        if(h[i]==f)
+        count++;
+    }
+    
+    
+    return count;
+    
+}
