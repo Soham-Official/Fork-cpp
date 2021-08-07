@@ -1,0 +1,11 @@
+https://practice.geeksforgeeks.org/problems/learning-structs/1/?track=module-3-pointers-and-objects%20&batchId=113
+
+
+struct Node
+{
+    //Your code here
+    //Linked list has data and next members
+    int data;
+    struct Node * next;
+    
+};
