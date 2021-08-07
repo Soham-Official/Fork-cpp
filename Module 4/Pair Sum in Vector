@@ -1,0 +1,13 @@
+https://practice.geeksforgeeks.org/problems/pair-sum-in-vector/1/?track=module-4-vector-and-pair&batchId=113
+
+
+void sum(vector<pair<int,int>>v)
+{
+    long long sum=0;
+    for(int i=0;i<v.size();i++)
+    {
+        sum+=v[i].second;
+    }
+    cout<<sum;
+    cout<<endl;
+}
