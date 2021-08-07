@@ -1,0 +1,15 @@
+https://practice.geeksforgeeks.org/problems/student-of-the-year/1/?track=module-4-vector-and-pair&batchId=113
+
+bool sortbysec(const pair<string,int> &a,
+              const pair<string,int> &b)
+{
+    return (a.second < b.second);
+}
+vector<pair<string, int>> sortMarks(vector<pair<string, int>> v, int N){
+    
+    sort(v.begin(), v.end());
+    
+    sort(v.begin(), v.end(), sortbysec);
+    reverse(v.begin(),v.end());
+    return v;
+}
